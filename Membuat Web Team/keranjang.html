@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="desain.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <title>Toko Telur</title>
+    <title>Dua Putra🥚</title>
 </head>
 <body>
         <!-- Navigasi-->
@@ -19,6 +19,34 @@
                 <a href="keranjang.html"id="Coklat" class="text-decoration-none">Keranjang</a>
             </div>
         </nav>
+
+        <!-- Baris -Menambah Jika Produk Ditambahkan Ke Keranjang-->
+        <div class="container mt-5 py-3" style="background-color:#E9A319; border-radius: 15px;">
+            <h1 class="text-center py-4">Keranjang</h1>
+            <div class="row px-3 align-items-start">
+                
+                <!--Baris 1-->
+                <div class="col-md-2 text-start" id="Baris1">
+                    <img src="telurAyamPack.png" alt="" class="img-thumbnail" style="width: 150px; background-color: #FAD59A; border: black;"> 
+                </div>
+                <div class="col-md-5 text-start">
+                    <div id="namaProduk" style="text-align: start; ;">Telur Ayam</div>
+                </div>
+                
+                <div class="col-md-5 text-start">
+                    <div id="hargaProduk" style="text-align: end;">Rp 2.500</div>
+                    <div class="row-md-1 mt-5" style="text-align: end;">
+                        <button style="background: none;"><img src="tempatSampah.png" alt="hapus" style="width: 25px;"></button>
+                        
+                        <button class="btnKeranjang me-2 px-2">+</button>
+                        <input type="text" value="1" class="text-center " style="width: 100px; ">
+                        <button class="btnKeranjang ms-2 px-2">-</button>  
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
   
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
