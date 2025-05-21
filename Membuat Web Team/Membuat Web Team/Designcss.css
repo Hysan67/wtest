@@ -1,0 +1,188 @@
+body{
+    background-image:url(TheseBack.png);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    margin-top: 10px;
+    display:block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+    height: 130px;
+   clear: both;
+}
+img.source{
+    margin-top: 10px;
+    display:block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+   clear: both;
+}
+img.coloums ,video{
+    display: inline;
+    margin-right: 2px;;
+    padding: 10px;
+    clear: both;
+    height: 150px;
+    width: 200px;
+    vertical-align: bottom;
+ 
+}
+.container1 {
+    width: 60%;
+    margin: 0 auto;
+    height: 450px;
+    padding: 25px;
+    background-color: #ebebeb2e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    position: relative;
+    top: -310px;
+    transform: translateY(-20px);
+    transition: transform 2s ; 
+    cursor: pointer;
+}
+.container1:hover{
+    background-color: #fbf9f9c2;
+    transform: translateY(-450px);
+}
+.container2 {
+    width: 20%;
+    margin: 0 auto;
+    height: 90%;
+    padding: 25px;
+    background-color: #ebebeb33;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+.container3 {
+    width: 20%;
+    margin: 0 auto;
+    height: 90%;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    word-spacing: 2px;
+    font-family: poppins;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: black; 
+    text-transform: capitalize;
+    
+}
+.container3:hover{
+    background-color: #1ea21c2f;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);   
+    margin-top: 5px;
+    padding: 15px;
+    text-shadow: 5px 2px 20px rgba(48, 46, 46, 0.198);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+    word-spacing: 2px;
+}
+.paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    text-align: justify;
+    padding: 10px;
+    color: black;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
+}
+.popins{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    padding: 10px;
+    color: rgb(198, 20, 20);
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+.container5 {
+    width: 30%;
+    margin: 0 auto;
+    height: 30px;;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    word-spacing: 2px;
+    font-family: poppins;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: black; 
+    text-transform: capitalize;
+    transform: translateX(0px);
+    transition: transform 0.5s;
+
+    background: #1586dc;
+    color: #fff;
+    /*biru kayak judul header*/
+    border: 2px outset #ffa20f;
+    font-weight: bold;
+    
+}
+.container5:border{
+    border-radius: 10px;
+    border: black;
+}
+.container5:hover{
+    background-color: #32e40a96;
+    color: white;
+    transform: translateY(-5px);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    word-spacing: 2px;
+}
+th, td {
+    padding: 10px;
+    text-align: auto;
+}
+th {
+    background-color: #f2f2f2;
+}
+td {
+    vertical-align: middle;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);   
+    margin-top: 5px;
+    padding: 15px;
+    text-shadow: 5px 2px 20px rgba(48, 46, 46, 0.198);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+    word-spacing: 2px;
+}
+     
+.container4 {
+    width: 60%;
+    margin: 0 auto;
+    height: 450px;
+    padding: 45px;
+    background-color: #ebebeb2e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+}
